@@ -8,38 +8,53 @@
     <title>BlueStar Computación</title>
     <link rel="shortcut icon" href="Imagenes/bluestar.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
     <!-- inicio contenedor padre -->
 
     <header>
         <!-- inicio header -->
-
-            <div class="header__logo"> 
-                <img src="Imagenes/bluestar.png" alt="bluestar-logo">
+        <nav class="navbar navbar-expand-lg navbar-light nav__background nav-letter-colors">
+            <div class="container-fluid">
+              <a class="navbar-brand header__logo" href="index.html"><img src="Imagenes/bluestar.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="html/categorias.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">PC Armadas</a></li>
+                      <li><a class="dropdown-item" href="#">Perifericos</a></li>
+                      <li><a class="dropdown-item" href="#">Disco duros</a></li>
+                      <li><a class="dropdown-item" href="#">Tarjetas Graficas</a></li>
+                      <li><a class="dropdown-item" href="#">Notebooks</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Otros</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/favoritos.html">Favoritos</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-            <h4 class="header__title">BlueStar</h4>
-           
-
-        <div class="header__user">
-            <a href="html/user.html"><img src="Imagenes/Sample_User_Icon.png" alt="user"></a>
-        </div>
-        <div class="header__cart">
-            <a href="html/cart.html"><img src="Imagenes/carrito.png" alt="cart"></a>
-        </div>
+          </nav>
         
-        <!-- inicio nav -->
-        <nav>
-           
-            <ul>
-                <li> <a href="index.html" >Inicio</a></li>
-                <li><a href="html/categorias.html" >Categorias</a></li>
-                <li><a href="html/nosotros.html" >Nosotros</a></li>
-                <li><a href="html/contacto.html" >Contacto</a></li>
-                <li><a href="html/favoritos.html" >Mis Favoritos</a></li>
-            </ul>
-        </nav>
-        <!-- fin nav -->
     </header>
     <!-- fin header -->
     <main>
@@ -60,7 +75,6 @@
     <!-- fin grid -->
 
 
-
     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste voluptatum adipisci quas quo vitae dolorum quisquam temporibus, pariatur voluptate alias, accusantium rem fugit ullam aspernatur impedit, veniam eligendi tenetur?
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus sit labore deserunt magnam vel eveniet debitis ipsum pariatur rerum, accusantium iste. Quidem, et? Provident ratione dolorem voluptas aspernatur laudantium a.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nihil laboriosam similique? Numquam vel facilis iusto fugit, enim rerum earum assumenda quisquam ut corporis sunt, facere alias nobis est nemo!
@@ -72,6 +86,7 @@
     </p>
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/cNNuWND7Qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
     
 </main>
 
@@ -96,5 +111,7 @@
        
         <!-- fin footer -->
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
