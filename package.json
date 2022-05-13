@@ -1,0 +1,23 @@
+{
+  "name": "bluestar-guillermo-orradre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JokaSenpai/coder_bluestar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JokaSenpai/coder_bluestar/issues"
+  },
+  "homepage": "https://github.com/JokaSenpai/coder_bluestar#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
