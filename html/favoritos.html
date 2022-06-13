@@ -48,10 +48,6 @@
                 <a class="nav-link" href="../html/contacto.html">Contacto</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
@@ -59,8 +55,25 @@
 </header>
 <!-- fin header -->
 
-    <h1>Mi lista de Favoritos en BlueStar Computación</h1>
-        <- Aquí se guardarian los componentes de PC elegidos por el user ->
+    <h1 class="h1-fav">Mis Favoritos</h1>
+   <h2 class="h2-fav">Logueate para ver tus productos favoritos</h2>
+    <div class="login-page">
+      <div class="form">
+        <form class="register-form">
+          <input type="text" placeholder="name"/>
+          <input type="password" placeholder="password"/>
+          <input type="text" placeholder="email address"/>
+          <button>create</button>
+          <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </form>
+        <form class="login-form">
+          <input type="text" placeholder="username"/>
+          <input type="password" placeholder="password"/>
+          <button>login</button>
+          <p class="message">¿No te registraste aún? <a href="#">¡Create una cuenta!</a></p>
+        </form>
+      </div>
+    </div>
     
         <!-- Inicio footer -->
         <footer class="footer-distributed">
